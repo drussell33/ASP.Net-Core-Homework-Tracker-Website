@@ -1,0 +1,27 @@
+@model IEnumerable<HW5Project.Models.Assignments>
+
+<h1>Current Assignments Table View</h1>
+
+@if (Model != null)
+{
+    <a class="btn btn-primary"asp-controller="Assignment" asp-action="CurrentAssignments" asp-route-sortOrder="priority" >Sort By Priority</a>
+    <a class="btn btn-primary" asp-controller="Assignment" asp-action="CurrentAssignments" asp-route-sortOrder="due_date" >Sort By Due Date</a>
+    <hr/>
+    <table class="table">
+        <thead>
+            <tr><th>Priority</th><th>Due</th><th>Course</th><th>Title</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+            @foreach (HW5Project.Models.Assignments i in Model)
+            {
+                <tr>
+                    <td>@i.Priority</td>
+                    <td>@i.DueDate</td>
+                    <td>@i.Course</td>
+                    <td>@i.Title</td>
+                    <td>@i.Notes</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+} 

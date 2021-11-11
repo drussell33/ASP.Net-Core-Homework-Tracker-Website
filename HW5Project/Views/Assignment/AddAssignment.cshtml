@@ -1,0 +1,63 @@
+@model Assignments
+    <div class="col-12">
+        <h1 class="text-lg-center">Assignment Tracker</h1>
+        <hr/>
+    </div>
+
+
+<div class="row">
+    
+    <div class="col-6">
+        <h3>Got a new Homework Assignment?</h3>
+        <p>Use this page to enter information about your assignment. Add it and then we'll keep track of it for you. We'll let you see your assignments by priority of due date so you'll never miss getting something done!</p>
+        <p>Here's what the parts mean:</p>
+        <p><strong>Priority</strong> -- 1 is the highest priority </p>
+        <p><strong>Due</strong> -- Due Date and Time</p>
+        <p><strong>Course</strong> -- enter it like this: CS 460, WR 355, ... and we can keep track of assignments for each department and course number</p>
+        <p><strong>Title</strong> --maybe "Homework #1: HTML and CSS"</p>
+        <p><strong>Notes</strong> -- remind yourself what needs to be done or what's important to complete it; or just whatever you want to say about the assignment</p>
+
+    </div>
+
+    <div class="col-6 border">
+        <p>Please enter the following: </p>
+        <form asp-controller="Assignment" asp-action="AddAssignment" method="post" class="mb-3">
+            <div asp-validation-summary="All"></div>
+            
+            <div class="form-group row">
+                <label asp-for="Priority" class="col-sm-4 col-form-label">Priority</label>
+                <div class="col-sm-6">
+                    <input asp-for="Priority" class="form-control"  >
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <label asp-for="DueDate" class="col-sm-4 col-form-label">When is it due?</label>
+                <div class="col-sm-6">
+                    <input asp-for="DueDate" class="form-control"  >
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <label asp-for="Course" class="col-sm-4 col-form-label">What Course?</label>
+                <div class="col-sm-6">
+                    <input asp-for="Course" class="form-control"  >
+                </div>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Title">Give the assignment a title:</label>
+                <input asp-for="Title" class="form-control">
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Notes">Add some notes about what you need to do to complete it?</label>
+                <textarea class="form-control" asp-for="Notes" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Track It!</button>
+        </form>
+
+    </div>
+
+</div>
