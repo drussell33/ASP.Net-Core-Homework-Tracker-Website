@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vg6fIlYL/yxKRczA0FXFOkLHTRFtOjvlbv3fXVSvdScPO9paARMjDHAXI+RUSJzuK5Rs9l4t0J2huldLbVvVyg==",
+  "dgSpecHash": "Nmo/Bogvhy+e5XJIglWcGJU7nt+eGtYIQa3O4YAoQ/m/6w8B67bqw0ed4Vr5Ic5gUjvXB7HlNTEDgo3Wlt6WDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\derek\\Desktop\\WOU Courses\\CS 460 Software Engineering\\CS460-F20-drussell33\\HW5\\HW5Solution\\HW5Project\\HW5Project.csproj",
+  "projectFilePath": "C:\\Users\\derek\\Documents\\github\\ASP.Net-Core-Homework-Tracker-Website\\HW5Project\\HW5Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\derek\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\derek\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -8443,11 +8443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\derek\\Desktop\\WOU Courses\\CS 460 Software Engineering\\CS460-F20-drussell33\\HW5\\HW5Solution\\HW5Project\\HW5Project.csproj",
+      "projectUniqueName": "C:\\Users\\derek\\Documents\\github\\ASP.Net-Core-Homework-Tracker-Website\\HW5Project\\HW5Project.csproj",
       "projectName": "HW5Project",
-      "projectPath": "C:\\Users\\derek\\Desktop\\WOU Courses\\CS 460 Software Engineering\\CS460-F20-drussell33\\HW5\\HW5Solution\\HW5Project\\HW5Project.csproj",
+      "projectPath": "C:\\Users\\derek\\Documents\\github\\ASP.Net-Core-Homework-Tracker-Website\\HW5Project\\HW5Project.csproj",
       "packagesPath": "C:\\Users\\derek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\derek\\Desktop\\WOU Courses\\CS 460 Software Engineering\\CS460-F20-drussell33\\HW5\\HW5Solution\\HW5Project\\obj\\",
+      "outputPath": "C:\\Users\\derek\\Documents\\github\\ASP.Net-Core-Homework-Tracker-Website\\HW5Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

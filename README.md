@@ -1,0 +1,1 @@
+Using ASP.NET MVC Core to write an application that uses a single one-table local database too view a list of homework assignments, and add news ones with the form.
